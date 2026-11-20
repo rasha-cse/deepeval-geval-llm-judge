@@ -93,4 +93,4 @@ Both default to `claude-opus-5-5`. A capable judge gives more reliable scores. T
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
