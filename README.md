@@ -1,6 +1,8 @@
-# DeepEval + G-Eval Sample Project
+# deepeval-geval-llm-judge
 
-A small, complete example of **evaluating an LLM application with [DeepEval](https://github.com/confident-ai/deepeval)'s G-Eval metric**.
+**LLM-as-a-judge evaluation with DeepEval and G-Eval**: a small, complete example project.
+
+An example of **evaluating an LLM application with [DeepEval](https://github.com/confident-ai/deepeval)'s G-Eval metric**.
 
 The app under test is a customer-support assistant for a fictional product, "Acme Cloud Storage". It answers questions with Claude, using a small knowledge base. DeepEval then uses a second LLM as a **judge** to score each answer against criteria written in plain English.
 
@@ -23,7 +25,7 @@ This project defines three G-Eval metrics in [`evals/metrics.py`](evals/metrics.
 ## Project structure
 
 ```
-deepeval-geval-sample/
+deepeval-geval-llm-judge/
 ├── app/
 │   ├── support_bot.py        # LLM app under test (Claude via the Anthropic SDK)
 │   └── knowledge_base.md     # Facts the bot is allowed to use
@@ -43,6 +45,8 @@ deepeval-geval-sample/
 ## Setup
 
 ```bash
+git clone https://github.com/<your-username>/deepeval-geval-llm-judge.git
+cd deepeval-geval-llm-judge
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env   # then put your ANTHROPIC_API_KEY in .env
