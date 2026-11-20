@@ -45,7 +45,7 @@ deepeval-geval-llm-judge/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/deepeval-geval-llm-judge.git
+git clone https://github.com/rasha-cse/deepeval-geval-llm-judge.git
 cd deepeval-geval-llm-judge
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
