@@ -1,0 +1,22 @@
+[
+  {
+    "input": "How much does the Pro plan cost?",
+    "expected_output": "The Pro plan costs $9 per user per month and includes 1 TB of storage per user and email support within 24 hours."
+  },
+  {
+    "input": "Can I get a refund if I cancel after two months?",
+    "expected_output": "Refunds are only available within 14 days of the first payment, so a refund after two months is not possible. You can still cancel at any time and keep access until the end of the paid period."
+  },
+  {
+    "input": "I accidentally deleted a file last week. Is it gone forever?",
+    "expected_output": "No. Deleted files stay in the Trash for 30 days, so a file deleted last week can still be restored from the Trash."
+  },
+  {
+    "input": "What's the biggest file I can upload on the free plan?",
+    "expected_output": "On the Free plan the maximum single file size is 2 GB."
+  },
+  {
+    "input": "Do you offer an on-premise version I can host myself?",
+    "expected_output": "The knowledge base doesn't cover an on-premise version, so the assistant should say it doesn't know and suggest contacting support@acme.example."
+  }
+]
